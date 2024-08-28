@@ -1,0 +1,49 @@
+/* Estilo para la barra de herramientas */
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+/* Estilo para el título de la barra de herramientas */
+.toolbar-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white; /* Ajusta el color según el tema */
+}
+
+/* Espaciadores para alinear los elementos */
+.spacer {
+  flex: 1;
+}
+
+/* Estilo para los botones en la barra de herramientas */
+.toolbar-button {
+  margin: 0 8px;
+  font-size: 1rem; /* Ajusta el tamaño del texto */
+  padding: 8px 16px; /* Ajusta el padding */
+  border-radius: 25px; /* Redondea las esquinas del botón */
+  text-transform: none; /* No transformar el texto a mayúsculas */
+  transition: background-color 0.3s, color 0.3s; /* Efecto de transición */
+}
+
+.toolbar-button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Fondo al pasar el cursor */
+  color: white; /* Color del texto al pasar el cursor */
+}
+
+/* Estilo para el botón de salida */
+.logout-button {
+  color: white; /* Ajusta el color según el tema */
+  background: transparent; /* Fondo transparente */
+}
+
+/* Estilo para el ícono de salida */
+.logout-icon {
+  font-size: 2rem; /* Tamaño del ícono */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}

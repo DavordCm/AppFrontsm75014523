@@ -1,0 +1,50 @@
+/* Estilo para el mat-toolbar */
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.toolbar-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar-button {
+  margin: 0 8px;
+}
+
+.logout-button {
+  color: white; 
+  border: none; 
+  background: transparent; 
+}
+
+.logout-icon {
+  font-size: 1.5rem; 
+}
+
+.posts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.posts-table th, .posts-table td {
+  padding: 16px;
+  text-align: left;
+  border: 1px solid black; 
+}
+
+.posts-table th {
+  background-color: #393939;
+  font-weight: bold;
+}
+
+.posts-table tr:hover {
+  background-color: #393939;
+}

@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  <span class="toolbar-title">ToolBar</span>
+  <span class="spacer"></span>
+  <button mat-raised-button routerLink="posts" class="toolbar-button">Lista de Posts</button>
+  <button mat-raised-button routerLink="users" class="toolbar-button">Lista de Usuarios</button>
+  <span class="spacer"></span>
+  <button mat-icon-button class="logout-button" (click)="logout()" aria-label="Logout">
+    <mat-icon>exit_to_app</mat-icon>
+  </button>  
+</mat-toolbar>
+
+<router-outlet></router-outlet>

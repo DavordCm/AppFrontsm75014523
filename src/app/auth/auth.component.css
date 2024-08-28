@@ -1,0 +1,49 @@
+.login-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background: linear-gradient(to right, #d8f0f8, #415164); 
+}
+
+mat-card {
+  max-width: 400px; 
+  width: 100%; 
+  padding: 20px; 
+  background-color: #ffffff; 
+  border-radius: 8px; 
+  position: relative; 
+}
+
+mat-form-field {
+  width: 100%; 
+  margin-bottom: 16px; 
+  position: relative; 
+}
+
+mat-icon {
+  position: absolute; 
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%);
+}
+
+.success-icon {
+  color: #4caf50;
+}
+
+.error-icon {
+  color: #f44336; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red; 
+  text-align: center; 
+  margin-top: 10px; 
+}
